@@ -1,5 +1,6 @@
 const net = require('net');
 
+ //connect is passed as param to setupInput in play.js, then setupInput in input.js is the passed the conn object in the param
 const connect = function() {
   const conn = net.createConnection({
     host: '192.168.88.177',

@@ -1,9 +1,8 @@
 const connect = require('./client');
 const setupInput = require('./input');
 console.log('Connecting ...');
-connect();
+setupInput(connect());
 
-setupInput();
 /**
  * Establishes connection with the game server
  */

@@ -16,6 +16,15 @@ const handleUserInput = function(data) {
   if (data === "d") {
     connection.write("Move: right");
   }
+  if (data === "i") {
+    connection.write("Say: It's Mine");
+  }
+  if (data === "h") {
+    connection.write("Say: Ha Ha");
+  }
+  if (data === "l") {
+    connection.write("Say: On your Left");
+  }
 };
 // inputted the conn via the setupInput(connect()) input in play.js which applied conn from client .js
 const setupInput = function(conn) {
